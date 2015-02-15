@@ -5,5 +5,5 @@ Rails.application.routes.draw do
     end
 
      
-      root 'article#index'
+      root 'articles#index'
 end
