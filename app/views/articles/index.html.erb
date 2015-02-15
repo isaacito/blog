@@ -1,4 +1,35 @@
-<h1>Hello, Rails!</h1>
+<div class="wrap">
+<nav class="menu">
+  <ul>
+    <li>
+       <%= link_to 'My Blog', controller: 'articles' %>
+    </li>
+    <li>
+        <a href="#">Contact</a>
+   </li>
+ </ul>
+ </nav>
+
+    <aside class="sidebar">
+        <div class="widget">
+          <h2>Raquel</h2>
+           <p>Hello, my name’s Raquel. I’m 25 years old. I live in Miami.<br> raquelWeinbach@gmail.com</p>
+        </div>
+      <div class="widget">
+        <h2>My Blog</h2>
+          <p>My blog is about....</p>
+       </div>
+   </aside>
+            <div class="blog">
+                 <div class="conteudo">
+                     <a href="#" class="continue-lendo">Read more →</a>
+            </div>
+                <div class="conteudo">
+                         <a href="#" class="continue-lendo">Read more →</a>
+               </div>
+                                                                                                                                                                                             </div>
+             </div>
+<h1>Raquel's Sassy Blog!</h1>
 <%= link_to 'My Blog', controller: 'articles' %>
 
 <%= link_to 'New article', new_article_path %>
