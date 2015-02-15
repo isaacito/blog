@@ -41,5 +41,24 @@ group :development, :test do
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
+
+  #errors read gems
+group :development  do
+ gem 'better_errors'
+   gem 'binding_of_caller'
+     gem 'wirble'
+       gem "letter_opener"
+       end
+
+       group :development, :test do
+           gem 'sqlite3' # SQLite3 DB
+           end
+
+           group :production do
+               gem 'pg' # Postgresql DB
+                  gem 'rails_12factor' # Heroku asset handler
+                  end
+ 
+                    gem 'bootstrap-sass'
 end
 
